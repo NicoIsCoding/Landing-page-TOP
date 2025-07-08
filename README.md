@@ -1,1 +1,1 @@
-# Landing-page-TOP
+Building a landing page as a project given by the TOP - The Odin Project course.
