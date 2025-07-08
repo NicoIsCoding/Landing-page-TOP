@@ -30,11 +30,16 @@ body {
 }
 /*---------------header below----------------*/
 a,
+p,
 .text {
     text-decoration: none;
-    color: #e5e7ebc9;
+    color: #838383;
     font-size: 18px;
     padding: 0;
+}
+
+a:hover {
+    color: #c6c6c6;
 }
 
 ul {
@@ -56,6 +61,10 @@ ul {
 .logo {
     font-size: 24px;
     color: white;
+}
+
+.logo:hover {
+    color: #3887F6;
 }
 /*---------------content-one below----------*/
 
@@ -100,6 +109,131 @@ button:hover {
 }
 
 /*---------------content-two below----------*/
+
+.content-two {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.images {
+    display: flex;
+    justify-content: center;
+    gap: 75px;
+    align-items: center;
+    flex-wrap: wrap;
+    margin-bottom: 100px;
+}
+
+.goals {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    max-width: 150px;
+
+
+}
+
+.goalimg {
+    width: 150px;
+    height: 150px;
+    border: 3px solid #3887F6;
+    border-radius: 16px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 18px;
+    font-weight: bold;
+    padding: 15px;
+    color: transparent;
+}
+
+.goalimg:hover {
+    color: #1F2937;
+}
+
+.goalheader {
+    color: #1F2937;
+    font-size: 36px;
+    font-weight: 900;
+    margin: 65px 0;
+}
+
+/*---------------content-three below----------*/
+
+.content-three {
+    display: flex;
+    flex-direction: column;
+    padding: 100px 200px;
+}
+
+.quote {
+    font-size: 36px;
+    color: #1F2937;
+    font-weight: 300;
+    font-style: italic;
+    margin-bottom: 10px;
+}
+
+.author {
+    font-size: 24px;
+    color: #1F2937;
+    font-weight: 800;
+    align-self: flex-end;
+}
+
+/*---------------content-four below----------*/
+
+.content-four {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.call-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex: 1;
+    background-color: #3887F6;
+    padding: 50px 200px;
+    border-radius: 8px;
+    margin: 100px 0;
+
+}
+
+.signup {
+    width: auto;
+    height: auto;
+    font-size: 18px;
+    flex-shrink: 0;
+    background-color: transparent;
+    border: 2px white solid;
+    color: white;
+    padding: 5px 30px;
+}
+
+.signup:hover {
+    background-color: white;
+    color: #3887F6;
+}
+
+.call-header {
+    color: white;
+    font-size: 24px;
+    font-weight: bold;
+    margin: 0;
+
+}
+
+.call-text{
+    color: #c6c6c6;
+    margin: 0;
+
+} 
+
 
 
 
